@@ -1,0 +1,11 @@
+{
+"returnValue": false,
+"errorCode":2,
+"timeStamp":12345,
+"latitude": 0,
+"longitude":0,
+"horizAccuracy": -1,
+"heading":-1,
+"velocity":-1,
+"vertAccuracy":-1
+}

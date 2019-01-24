@@ -1,0 +1,296 @@
+/*
+//*****************************************************************************
+//	Copyright RBT Development (Afxano, Inc), 2011 - All Rights Reserved
+//
+//*****************************************************************************
+*/
+
+.mapCanvas {
+	border: solid 1px black;
+	height: 100%;
+	width: 100%;
+	color: white;
+	text-align: center;
+	vertical-align: center;
+}
+
+.listHeader {
+	color: black;
+	/*background-color: white;*/
+	/*background: url("../icons/texture2.png"); */
+	border-right:  solid 3px black;
+	border-bottom: solid 1px black;
+	font-size: medium;
+	/*padding-top: 5px; */
+	width: 100%;
+
+} 
+
+.q_listTitle {
+	font-size: large;
+	font-weight: bold;
+}
+
+.list {
+	color: black;
+	background: url("../icons/texture2.png");
+	border-right:  solid 3px black;
+}
+
+.q_details {
+	color: #333333;
+	background: url("../icons/texture3.png");
+	border: solid 1px gray;
+	border-radius: 8px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.q_status {
+	font-size: x-small;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.q_sort {
+	text-align: left;
+}
+
+.q_updated {
+	text-align: right;
+}
+
+.q_magnitude_header {
+	font-size: small;
+	padding-left: 10px;
+
+}
+
+.q_magnitude {
+	font-size: large;
+}
+
+.q_depth_header {
+	font-size: x-small;
+}
+
+.q_depth {
+	font-size: x-small;
+}
+
+.q_description_header {
+	font-size: small;
+	padding-left: 10px;
+}
+.q_description {
+	padding-left: 5px;
+}
+
+.q_time {
+	font-size: small;
+}
+
+.q_locale {
+	font-size: small;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+.q_region {
+	font-size: x-small;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+.q_link {
+	font-size: x-small;
+}
+
+.q_depth {
+	font-size: small;
+}
+
+.q_distance_header {
+	font-size: small;
+	text-align: center;
+}
+
+.q_distance {
+	font-size: small;
+	padding-right: 10px;
+	text-transform: lowercase;
+}
+
+.q_lat {
+	font-size: x-small;
+}
+
+.q_lon {
+	font-size: x-small;
+}
+
+.q_button {
+	font-size: small;
+	margin: 30px;
+}
+
+.q_popupTitle {
+	text-align:center;
+	text-transform: capitalize;
+}
+
+.q_summary {
+	font-size: small;
+}
+
+.q_summary img {
+	display: none;
+}
+
+
+.q_share {
+	padding-top: 5px;
+}
+
+  
+.q_share .facebook {
+    background: url('../icons/facebook-icon_b_sm.png') 2px center no-repeat;
+	
+	text-decoration: none;
+    display: block;
+	font-size: small;
+	padding: 2px 2px 2px 2px;
+	margin:10px;
+	height: 32px;
+	width: 32px;
+  }
+  
+.q_share .twitter{
+	background: url('../icons/twitter-icon_sm.png') 2px center no-repeat;
+	
+	text-decoration: none;
+    display: block;
+	font-size: small;
+	padding: 2px 2px 2px 2px;
+	margin:10px;
+	height: 32px;
+	width: 32px;
+ }  
+ 
+.q_share .email {
+    background: url('../icons/email-icon-sm.png') 2px center no-repeat;
+	
+	text-decoration: none;
+    display: block;
+	font-size: small;
+	padding: 2px 2px 2px 2px;
+	margin:10px;
+	height: 32px;
+	width: 32px;
+  } 
+ 
+.q_share .sms {
+    background: url('../icons/msg-icon.png') 2px center no-repeat;
+	
+	text-decoration: none;
+    display: block;
+	font-size: small;
+	padding: 2px 2px 2px 2px;
+	margin:10px;
+	height: 32px;
+	width: 32px;
+  } 
+ 
+.viewPane {
+	background: url("../icons/texture4.png");
+	color: white;
+}
+
+.ivHeader {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: large;
+	padding: 5px;
+	padding-top: 10px;
+}
+.imageTitle {
+	color: white;
+	text-align: center;
+	text-transform: capitalize;
+	font-size: medium;
+	/*font-weight: bold; */
+	/*font-style: italic;*/
+	vertical-align: middle;
+	/*padding-bottom: 20px;*/
+}
+
+.imageTitleLink {
+	color: white;
+	text-align: left;
+	text-transform: capitalize;
+	font-size: medium;
+	font-weight: bold;
+	font-style: italic;
+	vertical-align: middle;
+}
+
+.ivFooter {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: small;
+	font-weight: bold;
+}
+
+.imageViewerImage  {
+	/* border: 1px solid black; */
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+.imageViewerImage img {
+	max-width: 500px;
+	max-height: 475px;
+	background: white;
+	padding: 20px;
+	border: 3px solid #222222;
+	margin-top: 20px;
+}
+
+
+.imageCount {
+	font-weight: bold;
+	font-size: small;
+}
+
+.imageText {
+	font-size: large;
+	font-weight: bold;
+}
+
+.moreIndicator {
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+.webView {
+	background: white;
+}
+
+.versionDetails_name { 
+	font-size: medium;
+	margin: 5px;
+	text-align: right;
+}
+
+.versionDetails_value { 
+	font-size: medium;
+	margin: 5px;
+	text-align: left;
+}

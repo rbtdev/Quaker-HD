@@ -1,0 +1,10 @@
+{
+	"id": "com.rbtdev.webos.quaker",
+	"version": "2.0.3",
+	"vendor": "RBTDEV",
+	"type": "web",
+	"main": "index.html",
+	"title": "Quaker HD",
+	"icon": "earthquake.png",
+	"uiRevision":2
+}
